@@ -18,6 +18,8 @@ exports.config = {
 
   framework: 'jasmine',
 
+  useAllAngular2AppRoots: true,
+  
   specs: ['TestCases//Iframe_Spec.js'],
   SELENIUM_PROMISE_MANAGER: false,
 
