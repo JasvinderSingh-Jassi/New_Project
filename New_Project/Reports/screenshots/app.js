@@ -634,6 +634,61 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "images\\00f60010-00a7-001a-00f8-001300b50082.png",
         "timestamp": 1619163920357,
         "duration": 13759
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11408,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00d4009d-0054-008b-00a3-00f400ea00c6.png",
+        "timestamp": 1619164488226,
+        "duration": 12482
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11408,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\0034004d-0079-00a5-005f-005f000b0094.png",
+        "timestamp": 1619164501018,
+        "duration": 3769
+    },
+    {
+        "description": "Switch to new window|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11408,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1619164510085r0.2686793801680052&wxhr=true&t=1619164510089&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619164510596,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00610028-00a9-0080-0091-0015001700f6.png",
+        "timestamp": 1619164504871,
+        "duration": 15747
     }
 ];
 
