@@ -513,6 +513,66 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "images\\00560059-0004-002e-00c1-00f000cd00df.png",
         "timestamp": 1619155214345,
         "duration": 19284
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 3836,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\004000a7-0053-00d0-000d-000d002600d2.png",
+        "timestamp": 1619157591818,
+        "duration": 30799
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 3836,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\006e0023-00db-00ed-000e-00bc00c7009b.png",
+        "timestamp": 1619157623249,
+        "duration": 4334
+    },
+    {
+        "description": "Switch to new window|Interact with Frames",
+        "passed": false,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 3836,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": [
+            "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."
+        ],
+        "trace": [
+            "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n    at Timeout._onTimeout (C:\\Users\\Jasvinder Singh\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4281:23)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+        ],
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1619157638780r0.2480523458768693&wxhr=true&t=1619157638784&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619157639748,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\009800e9-007a-00cd-0004-002700f100b6.png",
+        "timestamp": 1619157627737,
+        "duration": 33019
     }
 ];
 
