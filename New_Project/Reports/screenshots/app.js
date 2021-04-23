@@ -452,6 +452,67 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "images\\006200ba-007d-008b-00c8-006900b90015.png",
         "timestamp": 1619154865115,
         "duration": 22646
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9868,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00f4001e-009a-00ac-00d7-009300d900a7.png",
+        "timestamp": 1619155190078,
+        "duration": 19973
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9868,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\008600f7-0047-00dc-00b8-00d200de0021.png",
+        "timestamp": 1619155210348,
+        "duration": 3847
+    },
+    {
+        "description": "Switch to new window|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 9868,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1619155218842r0.30534044875106203&wxhr=true&t=1619155218846&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619155219718,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1619155218842r0.30534044875106203&wxhr=true&t=1619155230138&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619155230166,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00560059-0004-002e-00c1-00f000cd00df.png",
+        "timestamp": 1619155214345,
+        "duration": 19284
     }
 ];
 
