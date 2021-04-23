@@ -634,6 +634,38 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "images\\00f60010-00a7-001a-00f8-001300b50082.png",
         "timestamp": 1619163920357,
         "duration": 13759
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11408,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00d4009d-0054-008b-00a3-00f400ea00c6.png",
+        "timestamp": 1619164488226,
+        "duration": 12482
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 11408,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\0034004d-0079-00a5-005f-005f000b0094.png",
+        "timestamp": 1619164501018,
+        "duration": 3769
     }
 ];
 

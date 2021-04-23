@@ -60,6 +60,7 @@ describe('Interact with Frames', () => {
 
         //Print title of second window
         console.log("Title of second window is: "+await browser.getTitle());
+        console.log("Branch1");
 
     })
 
