@@ -330,6 +330,128 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "screenShotFile": "images\\00a80060-00bf-0084-00eb-009700af0042.png",
         "timestamp": 1617200433092,
         "duration": 10715
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 5276,
+        "browser": {
+            "name": "chrome",
+            "version": "89.0.4389.114"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00d00070-00e9-00c4-005d-00ab006a000b.png",
+        "timestamp": 1618382876460,
+        "duration": 9725
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 5276,
+        "browser": {
+            "name": "chrome",
+            "version": "89.0.4389.114"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00ab0002-005b-0024-0023-008a00ba00d2.png",
+        "timestamp": 1618382886785,
+        "duration": 3933
+    },
+    {
+        "description": "Switch to new window|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 5276,
+        "browser": {
+            "name": "chrome",
+            "version": "89.0.4389.114"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1618382893635r0.8014808160403475&wxhr=true&t=1618382893641&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1618382893889,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1618382893635r0.8014808160403475&wxhr=true&t=1618382895101&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1618382895139,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00c90003-0093-0057-00a3-00d4008e003c.png",
+        "timestamp": 1618382890996,
+        "duration": 7863
+    },
+    {
+        "description": "Enter username|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17556,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\003d005b-00a8-009b-00d8-009900c80055.png",
+        "timestamp": 1619154829333,
+        "duration": 30790
+    },
+    {
+        "description": "switch to default content|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17556,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [],
+        "screenShotFile": "images\\00fb006a-00d1-0074-0070-006b0098001b.png",
+        "timestamp": 1619154860495,
+        "duration": 4479
+    },
+    {
+        "description": "Switch to new window|Interact with Frames",
+        "passed": true,
+        "pending": false,
+        "os": "Windows",
+        "instanceId": 17556,
+        "browser": {
+            "name": "chrome",
+            "version": "90.0.4430.72"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fwindows&u=oeu1619154871214r0.9314357845993149&wxhr=true&t=1619154871221&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619154871487,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1619154871214r0.9314357845993149&wxhr=true&t=1619154883874&f=298349752,318188263 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+                "timestamp": 1619154883902,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\006200ba-007d-008b-00c8-006900b90015.png",
+        "timestamp": 1619154865115,
+        "duration": 22646
     }
 ];
 
